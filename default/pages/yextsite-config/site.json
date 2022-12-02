@@ -1,0 +1,22 @@
+{
+    "$id": "blank",
+    "$schema": "https://schema.yext.com/config/pages/yextsite-config/v1",
+    "siteName": "Blank Site",
+    "siteSettings": {
+      "autoDeploy": true,
+      "autoStage": false,
+      "autoPublish": false,
+      "pullRequestsEnabled": true,
+      "stagingCredentials": {
+        "password": "",
+        "username": ""
+      }
+    },
+    "branches": [
+      {
+        "name": "main",
+        "envVars": [],
+        "isProductionBranch": true
+      }
+    ]
+  }
